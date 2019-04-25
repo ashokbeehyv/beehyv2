@@ -4,7 +4,7 @@ from scripts.baseclass2 import BaseClass2
 
 
 
-class DerivedClass(BaseClass1,BaseClass2):
+class ExistingClass(BaseClass1,BaseClass2):
         
     def __init__(self, name):
         self.name = name
